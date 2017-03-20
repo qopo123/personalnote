@@ -9,6 +9,7 @@ import java.util.List;
  */
 public class CourseController {
   private List<String> list = new ArrayList<>();
+  private List<String> list1 = new ArrayList<>();
     public static void main(String[] args) {
         List<String> list = new ArrayList<>();
         list.add("String");

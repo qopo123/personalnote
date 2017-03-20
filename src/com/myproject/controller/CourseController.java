@@ -8,6 +8,7 @@ import java.util.List;
  * Created by Administrator on 2017/3/16.
  */
 public class CourseController {
+  private List<String> list = new ArrayList<>();
     public static void main(String[] args) {
         List<String> list = new ArrayList<>();
         list.add("String");
@@ -18,5 +19,6 @@ public class CourseController {
             System.out.println(str);
         }
     }
+
 }
 

@@ -14,7 +14,7 @@ public class CourseController {
     public static void main(String[] args) {
         List<String> list = new ArrayList<>();
         list.add("String");
-        list.add(1,"你好11");
+        list.add(1,"你s好11");
         Iterator<String> itr = list.iterator();
         while(itr.hasNext()){
             String str = itr.next();
